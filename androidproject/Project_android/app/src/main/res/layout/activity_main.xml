@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#474747"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="@string/sstitle"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@drawable/avt"
+
+            />
+
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:id="@+id/stname"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:text="Marks1"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+
+        <EditText
+            android:id="@+id/mark1"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+        <TextView
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:text="Marks2"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:id="@+id/mark2"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Marks3"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:id="@+id/mark3"
+            android:layout_width="271dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Total"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Avg"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:id="@+id/avg"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+
+            />
+
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Grade"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:id="@+id/grade"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10px">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:text="Submit"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Clear"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
